@@ -1,9 +1,15 @@
-<mxfile modified="2020-10-21T00:38:49.142Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="QUf5uuTxGX7z6YaccA1g" version="13.8.1" type="github">
+<mxfile modified="2020-10-21T00:44:40.858Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="YUWXpJFgjmNBpxNmOd5q" version="13.8.1" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="2514" dy="2258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iIuk5RWcaTYQ2RaT7IqE-112" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeWidth=7;strokeColor=#d6b656;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="-820" width="980" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="iIuk5RWcaTYQ2RaT7IqE-111" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=none;strokeWidth=7;glass=0;shadow=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-820" width="1050" height="1370" as="geometry" />
+        </mxCell>
         <mxCell id="iIuk5RWcaTYQ2RaT7IqE-15" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1130" y="-810" width="730" height="510" as="geometry" />
         </mxCell>
@@ -172,7 +178,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iIuk5RWcaTYQ2RaT7IqE-41" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1300" y="-220" width="600" height="410" as="geometry" />
+          <mxGeometry x="1330" y="30" width="600" height="410" as="geometry" />
         </mxCell>
         <mxCell id="iIuk5RWcaTYQ2RaT7IqE-37" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="iIuk5RWcaTYQ2RaT7IqE-41">
           <mxGeometry width="600" height="410" as="geometry" />
@@ -185,6 +191,18 @@
         </mxCell>
         <mxCell id="iIuk5RWcaTYQ2RaT7IqE-97" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Code.svg;dashed=1;fillColor=none;" vertex="1" parent="iIuk5RWcaTYQ2RaT7IqE-41">
           <mxGeometry x="101" y="110" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="iIuk5RWcaTYQ2RaT7IqE-108" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Code.svg;dashed=1;fillColor=none;" vertex="1" parent="iIuk5RWcaTYQ2RaT7IqE-41">
+          <mxGeometry x="101" y="190" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="iIuk5RWcaTYQ2RaT7IqE-107" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Code.svg;dashed=1;fillColor=none;" vertex="1" parent="iIuk5RWcaTYQ2RaT7IqE-41">
+          <mxGeometry x="101" y="260" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="iIuk5RWcaTYQ2RaT7IqE-106" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Code.svg;dashed=1;fillColor=none;" vertex="1" parent="iIuk5RWcaTYQ2RaT7IqE-41">
+          <mxGeometry x="200" y="110" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="iIuk5RWcaTYQ2RaT7IqE-109" value="&lt;h1&gt;Codebase and Deployment Pipeline&amp;nbsp;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;FE - deployed to the S3 bucket&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;BE - deployed to AWS ECR, refreshes Kubernetes&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;Infra - Updates the AWS infra&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;Infra Functions - Updates the lambda functions&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="iIuk5RWcaTYQ2RaT7IqE-41">
+          <mxGeometry x="200" y="192" width="370" height="188" as="geometry" />
         </mxCell>
         <mxCell id="iIuk5RWcaTYQ2RaT7IqE-43" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="iIuk5RWcaTYQ2RaT7IqE-46" target="iIuk5RWcaTYQ2RaT7IqE-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -248,8 +266,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iIuk5RWcaTYQ2RaT7IqE-90" value="&lt;h1&gt;Application Env&lt;/h1&gt;&lt;p&gt;Every stage is just a copy of this environment.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="-579" width="190" height="120" as="geometry" />
+        <mxCell id="iIuk5RWcaTYQ2RaT7IqE-90" value="&lt;h1&gt;Application Env&lt;/h1&gt;&lt;p&gt;Every stage is just a copy of this environment.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontColor=#33FF33;" vertex="1" parent="1">
+          <mxGeometry x="430" y="570" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="iIuk5RWcaTYQ2RaT7IqE-91" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="920" y="-190" width="190" height="248.8888888888889" as="geometry" />
